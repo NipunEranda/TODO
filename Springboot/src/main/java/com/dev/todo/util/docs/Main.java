@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Main {
-    @GetMapping("")
+    @GetMapping("/home")
     public String home(HttpServletRequest request) {
-        return "Welcome.";
+        return "Welcome User.";
     }
 }
