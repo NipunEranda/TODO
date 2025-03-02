@@ -1,4 +1,4 @@
-package com.dev.todo.user;
+package com.dev.todo.model;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

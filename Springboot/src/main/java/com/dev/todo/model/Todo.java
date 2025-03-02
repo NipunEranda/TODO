@@ -1,4 +1,4 @@
-package com.dev.todo.todo;
+package com.dev.todo.model;
 
 import jakarta.validation.constraints.NotEmpty;
 

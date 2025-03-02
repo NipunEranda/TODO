@@ -1,4 +1,4 @@
-package com.dev.todo.user;
+package com.dev.todo.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

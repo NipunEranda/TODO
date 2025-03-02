@@ -1,5 +1,8 @@
-package com.dev.todo.user;
+package com.dev.todo.service;
 
+import com.dev.todo.model.Users;
+import com.dev.todo.repository.UserRepository;
+import com.dev.todo.model.UserPrincipal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

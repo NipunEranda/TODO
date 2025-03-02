@@ -1,4 +1,4 @@
-package com.dev.todo.docs;
+package com.dev.todo.util.docs;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.GetMapping;

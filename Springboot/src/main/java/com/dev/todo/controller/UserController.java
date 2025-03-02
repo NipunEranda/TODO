@@ -1,5 +1,7 @@
-package com.dev.todo.user;
+package com.dev.todo.controller;
 
+import com.dev.todo.service.UserService;
+import com.dev.todo.model.Users;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

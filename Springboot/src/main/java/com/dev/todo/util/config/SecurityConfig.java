@@ -1,6 +1,6 @@
-package com.dev.todo.config;
+package com.dev.todo.util.config;
 
-import com.dev.todo.user.CustomUserDetailsService;
+import com.dev.todo.service.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

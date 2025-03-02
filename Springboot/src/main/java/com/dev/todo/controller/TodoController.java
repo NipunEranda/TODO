@@ -1,9 +1,11 @@
-package com.dev.todo.todo;
+package com.dev.todo.controller;
 
+import com.dev.todo.model.Todo;
+import com.dev.todo.util.exception.TodoNotFoundException;
+import com.dev.todo.repository.TodoRepository;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 import java.util.Optional;
